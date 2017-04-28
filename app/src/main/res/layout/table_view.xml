@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/txt_TableName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên bàn"
+        android:textSize="24dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center_horizontal" />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:id="@+id/txt_ChairNumber"
+            android:text="Số ghế"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="Sửa bàn"
+            android:id="@+id/btn_UpdateTable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Gọi món"
+            android:id="@+id/btn_OrderFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Thanh toán"
+            android:id="@+id/btn_PayTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>

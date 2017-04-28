@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    tools:context="com.example.crocodile.monan.MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_FoodManage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUẢN LÝ MÓN ĂN" />
+    <Button
+        android:id="@+id/btn_TableManage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUẢN LÝ BÀN" />
+    <Button
+        android:id="@+id/btn_PayManage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUẢN LÝ THANH TOÁN" />
+    <Button
+        android:id="@+id/btn_OrderTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ĐẶT BÀN ĂN TRỐNG" />
+</LinearLayout>
